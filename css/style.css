@@ -201,3 +201,189 @@ h1 {
     text-transform: uppercase;
 }
 
+.page-analitics h2 {
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.page-analitics p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+}
+
+.page-analitics a {
+    width: 230px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1085e4;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-analitics2 h2 {
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.page-analitics2 p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+}
+
+.page-analitics2 a {
+    width: 230px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1085e4;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.page-screen h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page-screen h2 span {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #1085e4;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-clients {
+    background-color: #1085e4;
+}
+
+.page-clients h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.page-clients h2 span {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #85c8ff;
+    font-weight: 800;
+}
+
+.page-pricing-plans {
+    font-size: 14px;
+    color: #8085b1;
+    font-weight: 400;
+    text-align: center;
+}
+
+.page-pricing-plans h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page-pricing-plans h2 span {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #1085e4;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page-our-team h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page-our-team h2 span {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #85c8ff;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page-our-team div {
+    font-size: 26px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+    text-align: center;
+}
+
+.page-our-team div span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #1a88e1;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-free-trail-form h2 {
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.page-free-trail-form form {
+    font-size: 14px;
+    color: #8995b3;
+    font-weight: 400;
+}
+
+.page-free-trail-form form a {
+    width: 230px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1085e4;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.page-footer{
+    background-color: #192b59;
+}
+
+.page-footer p {
+    font-size: 16px;
+    color: #b6bae0;
+    font-weight: 400;
+}
+
+.page-footer p span {
+    font-size: 16px;
+    color: #1085e4;
+    font-weight: 400;
+    text-transform: uppercase;
+}
