@@ -11,7 +11,7 @@ body {
     line-height: 26px;
 }
 
-h1 {
+.main-header {
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
@@ -21,14 +21,76 @@ h1 {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #6e7ea9;;
+    color: #6e7ea9;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.btn-primary {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1085e4;
+    border: 1px solid #1085e4;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #1085e4;
+}
+
+.btn-secondary {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #7e8bae;
 }
 
 .btn-free {
     color: #fff;
     font-weight: 400;
-    background-color: #1085e4;
+    padding: 21px 56px;
+    letter-spacing: 1.7px;
+}
+
+.btn-group a + a {
+    margin-left: 15px;
+}
+
+.btn-info {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #8085b1;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    border-radius: 30px;
+    background-color: #f5faff;
+    border: 2px solid rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    padding: 20px 40px;
     text-decoration: none;
+}
+
+.btn-info:hover {
+    background-color: #fff;
 }
 
 .grid h2 {
