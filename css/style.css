@@ -288,14 +288,14 @@ h1 {
     font-weight: 800;
 }
 
-.page-pricing-plans {
+.page-plan {
     font-size: 14px;
     color: #8085b1;
     font-weight: 400;
     text-align: center;
 }
 
-.page-pricing-plans h2 {
+.page-plan h2 {
     font-size: 40px;
     letter-spacing: -1px;
     color: #192b59;
@@ -303,7 +303,7 @@ h1 {
     text-align: center;
 }
 
-.page-pricing-plans h2 span {
+.page-plan h2 span {
     font-size: 18px;
     letter-spacing: 4px;
     color: #1085e4;
@@ -311,7 +311,7 @@ h1 {
     text-align: center;
 }
 
-.page-our-team h2 {
+.page-team h2 {
     font-size: 40px;
     letter-spacing: -1px;
     color: #ffffff;
@@ -319,7 +319,7 @@ h1 {
     text-align: center;
 }
 
-.page-our-team h2 span {
+.page-team h2 span {
     font-size: 18px;
     letter-spacing: 4px;
     color: #85c8ff;
@@ -327,7 +327,7 @@ h1 {
     text-align: center;
 }
 
-.page-our-team div {
+.page-team div {
     font-size: 26px;
     letter-spacing: -1px;
     color: #192b59;
@@ -335,7 +335,7 @@ h1 {
     text-align: center;
 }
 
-.page-our-team div span {
+.page-team div span {
     font-size: 14px;
     letter-spacing: 3px;
     color: #1a88e1;
@@ -344,20 +344,20 @@ h1 {
     text-transform: uppercase;
 }
 
-.page-free-trail-form h2 {
+.page-form h2 {
     font-size: 50px;
     letter-spacing: -1px;
     color: #192b59;
     font-weight: 600;
 }
 
-.page-free-trail-form form {
+.page-form form {
     font-size: 14px;
     color: #8995b3;
     font-weight: 400;
 }
 
-.page-free-trail-form form a {
+.page-form form a {
     width: 230px;
     height: 60px;
     border-radius: 30px;
@@ -371,17 +371,17 @@ h1 {
     text-decoration: none;
 }
 
-.page-footer{
-    background-color: #192b59;
+.footer{
+    background-color: #192b59;  
 }
 
-.page-footer p {
+.footer p {
     font-size: 16px;
     color: #b6bae0;
     font-weight: 400;
 }
 
-.page-footer p span {
+.footer p span {
     font-size: 16px;
     color: #1085e4;
     font-weight: 400;
