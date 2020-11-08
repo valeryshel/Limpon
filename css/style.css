@@ -274,33 +274,72 @@ body {
     font-weight: 400;
 }
 
+.subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0 52px 0;
+}
+
+.subscribe-box img {
+    width: 354px;
+    height: 417px;
+    padding-top: 20px;
+}
+
 .page-subscribe h2 {
     font-size: 50px;
-    letter-spacing: -1px;
+    letter-spacing: -1.6px;
     color: #ffffff;
     font-weight: 600;
+    margin: 0;
+    padding-bottom: 28px;
 }
 
 .page-subscribe h2 span {
     font-size: 14px;
-    letter-spacing: 3px;
+    letter-spacing: 2.7px;
     color: #00bffe;
     font-weight: 800;
+    display: block;
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-bottom: 31px;
 }
 
 .page-subscribe p {
     font-size: 18px;
     color: #dfe8ff;
     font-weight: 400;
+    max-width: 405px;
+    line-height: 1.5;
+    margin: 18px 0 40px 0;
 }
 
-.page-subscribe input {
+.subscribe-form {
+    width: 525px;
+    max-width: 525px;
+    border: 2px solid #3f5ab0;
+    border-radius: 50px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.subscribe-form input {
     font-size: 14px;
+    background-color: transparent;
+    border-style: none;
     color: #b1c3ee;
     font-weight: 400;
+    vertical-align: middle;
+    padding-left: 29px;
 }
 
-.page-subscribe button {
+.subscribe-form input::placeholder {
+    color: #b1c3ee;
+}
+
+.subscribe-form button {
     font-size: 14px;
     letter-spacing: 3px;
     color: #ffffff;
