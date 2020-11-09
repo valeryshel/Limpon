@@ -329,10 +329,14 @@ body {
     font-size: 14px;
     background-color: transparent;
     border-style: none;
-    color: #b1c3ee;
+    color: #fff;
     font-weight: 400;
     vertical-align: middle;
     padding-left: 29px;
+}
+
+.subscribe-form input:focus, .subscribe-form.btn-primary:focus {
+    outline: none;
 }
 
 .subscribe-form input::placeholder {
