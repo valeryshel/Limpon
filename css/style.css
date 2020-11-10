@@ -130,6 +130,7 @@ body {
     border-radius: 30px;
     letter-spacing: 2.5px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .btn-primary:hover {
@@ -148,6 +149,7 @@ body {
     border-radius: 30px;
     letter-spacing: 2.5px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .btn-secondary:hover {
@@ -160,6 +162,7 @@ body {
     font-weight: 400;
     padding: 21px 56px;
     letter-spacing: 1.7px;
+    transition: 0.3s;
 }
 
 .btn-group a + a {
@@ -179,6 +182,7 @@ body {
     text-transform: uppercase;
     padding: 20px 45px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .btn-info:hover {
@@ -237,8 +241,9 @@ body {
                          "e h h";
     max-width: 1110px;
     margin: 0 auto;
-    grid-gap: 33px;
+    grid-gap: 35px;
     padding: 88px 0 30px 0;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
@@ -295,10 +300,11 @@ body {
 
 .grid-item {
     text-align: center;
-    box-shadow: 0 0 5px #f4f4f4;
-    min-width: 350px;
+    box-shadow: 0 10px 11px #d3d0d0;
+    /* min-width: 350px; */
     padding: 46px 0 10px 0;
-    margin: 35px 0 10px 0;
+    margin: 35px 0 120px 0;
+    border-radius: 10px;
 }
 
 .grid-item h3  {
@@ -345,43 +351,38 @@ body {
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto 36px;
-
+    height: 92px;
+    background-position: center;
 }
 
 .grid-icon-1 {
     background-image: url(../img/icon1.png);
-    width: 73px;
-    height: 79px;
+    background-size: 73px 79px;
 }
 
 .grid-icon-2 {
     background-image: url(../img/icon2.png);
-    width: 89px;
-    height: 85px;
+    background-size: 89px 85px;
 }
 
 .grid-icon-3 {
     background-image: url(../img/icon3.png);
-    width: 79px;
-    height: 82px;
+    background-size: 79px 82px;
 }
 
 .grid-icon-4 {
     background-image: url(../img/icon4.png);
-    width: 102px;
-    height: 92px;
+    background-size: 102px 92px;
 }
 
 .grid-icon-5 {
     background-image: url(../img/icon5.png);
-    width: 85px;
-    height: 90px;
+    background-size: 85px 90px;
 }
 
 .grid-icon-6 {
     background-image: url(../img/icon6.png);
-    width: 100px;
-    height: 87px;
+    background-size: 100px 87px;
 }
 
 /*Subscribe Block*/
