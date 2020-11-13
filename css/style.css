@@ -678,8 +678,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    align-items: center;
-    
+  
 }
 
 .flex-analitics img {
@@ -693,19 +692,19 @@ body {
 
 .flex-analitics>div {
     flex-basis: 54%;
-    margin: 4px 8px 0 0px;
+    margin: 38px 7px 0 0px;
 }
 
 .flex-analitics .title-h2 {
-    margin: 12px 0 17px 0;
+    margin: 12px 0px 17px 3px;
 }
 
 .page-analitics-text {
     font-size: 16px;
     line-height: 26px;
     color: #7581a1;
-    margin: 19px 0 0px 0;
-    padding: 8px 0 0px 0;
+    margin: 19px 0px 27px 4px;
+    padding: 7px 0 7px 0;
 }
 
 .page-analitics a {
