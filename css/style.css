@@ -234,17 +234,17 @@ body {
 
 .grid {
     display: grid;
-    grid-template-areas: "a b c"
-                         "d b c"
-                         "d f g"
-                         "e f g"
-                         "e h h";
+    grid-template-areas:
+        "a b c"
+        "d b c"
+        "d f g"
+        "e f g"
+        "e h h";
     max-width: 1110px;
     margin: 30px auto;
     grid-gap: 35px;
-    padding: 93px 0 75px 0;
+    padding: 93px 0 72px 0;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .grid-title {
@@ -498,7 +498,7 @@ body {
     width: 116px;
     height: 86px;
     background-repeat: no-repeat;
-    background-position: -23px 0;
+    background-position: -21px 0;
 }
 
 .page-software .title-h2 {
@@ -601,7 +601,7 @@ body {
     justify-content: space-between;
     margin-top: 50px;
     position: relative;
-    margin-bottom: 104px;
+    margin-bottom: 106px;
 }
 
 .page-app-flex img {
@@ -670,8 +670,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 80px 0 137px 0;
-    
+    padding: 81px 0 136px 0;
 }
 
 .flex-analitics {
@@ -684,6 +683,7 @@ body {
 .flex-analitics img {
     border-style: none;
     margin: 76px 0 0 -26px;
+    height: 95%;
 }
 
 .flex-analitics .page-software-icon {
@@ -691,8 +691,8 @@ body {
 }
 
 .flex-analitics>div {
-    flex-basis: 54%;
-    margin: 38px 7px 0 0px;
+    flex-basis: 55%;
+    margin: 36px 0px 0 0px;
 }
 
 .flex-analitics .title-h2 {
@@ -703,54 +703,57 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #7581a1;
-    margin: 19px 0px 27px 4px;
-    padding: 7px 0 7px 0;
+    margin: 19px 0px 36px 4px;
+    padding: 7px 0 15px 0;
+}
+.btn-analitics {
+    margin: 12px 0 0 0;
+    padding: 20px 45px;
 }
 
-.page-analitics a {
-    width: 230px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #1085e4;
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
+/* .page-app2 */
+
+.page-app-2 {
+    padding: 67px 0 33px 0;
+    background-image: url(../img/background5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-/* .page-analitics2 */
-
-.page-analitics2 h2 {
-    font-size: 50px;
-    letter-spacing: -1px;
-    color: #192b59;
-    font-weight: 600;
+.page-app2-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 104px;
 }
 
-.page-analitics2 p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #7581a1;
+.page-app2-flex .content-app {
+    width: 55%;
+    padding: 0 0 0 29px;
 }
 
-.page-analitics2 a {
-    width: 230px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #1085e4;
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+.page-app2-flex .content-app .title-h2 {
+    margin-top: 22px;
+    margin-bottom: 26px;
+    max-width: 450px;
 }
+
+
+.page-app2-flex .content-app p {
+    padding: 0 0 34px 0;
+}
+
+.page-app2-flex .content-app a {
+    padding: 20px 65px;
+}
+
+/* Screen */
 
 .screen {
-    margin-top: 36px;
-    margin-bottom: -7px;
+    margin-top: 20px;
+    margin-bottom: -40px;
 }
 
 .page-clients {
@@ -974,7 +977,7 @@ body {
 }
 
 .page-screen {
-    padding: 116px 0 0 0;
+    padding: 83px 0 0 0;
 }
 .page-plan, .page-screen {
     text-align: center;
