@@ -844,13 +844,17 @@ body {
 /* page plan */
 
 .page-plan {
-    padding: 8px 0 0 0;
+    padding: 9px 0 70px 0;
 }
 
 .box-price {
     display: flex;
     justify-content: space-between;
-    margin: 82px 0 50px;
+    margin: 81px 0 50px;
+}
+
+.box-price .btn-primary {
+    padding: 20px 60px;
 }
 
 .box-price-item ul {
@@ -870,7 +874,7 @@ body {
     font-weight: 400;
     text-align: center;
     flex-basis: 32%;
-    padding: 90px 0 96px 0;
+    padding: 89px 0 87px 0;
     position: relative;
 }
 
@@ -947,38 +951,80 @@ body {
     letter-spacing: -1px;
 }
 
-.page-team h2 {
-    font-size: 40px;
-    letter-spacing: -1px;
-    color: #ffffff;
-    font-weight: 600;
+/* page team */
+
+.page-team {
     text-align: center;
+    background-image: url(../img/background7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 82px 0 114px 0;
+}
+
+.page-team .title-40 {
+    color: #ffffff;
 }
 
 .page-team h2 span {
-    font-size: 18px;
-    letter-spacing: 4px;
     color: #85c8ff;
-    font-weight: 800;
-    text-align: center;
 }
 
-.page-team div {
-    font-size: 26px;
-    letter-spacing: -1px;
-    color: #192b59;
-    font-weight: 600;
-    text-align: center;
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 138px;
 }
 
-.page-team div span {
+.box-team-item {
+    background-color: #fff;
+    flex-basis: 31.5%;
+    box-shadow: 0 5px 6px #f4f4f4;
+    position: relative;
+    padding: 193px 0 40px 0;
+}
+
+.box-team-item .avatar {
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .position {
     font-size: 14px;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     color: #1a88e1;
     font-weight: 800;
-    text-align: center;
     text-transform: uppercase;
+    margin-bottom: 0;
+
 }
+
+.box-team-item .name {
+    font-size: 26px;
+    letter-spacing: -0.7px;
+    color: #192b59;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.box-team-item .btn-more {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(../img/btn-more.png);
+    background-repeat: no-repeat;
+    border: none;
+
+}
+
+.box-team-item .btn-more:focus {
+    outline: none;
+}
+
+/* Page form */
 
 .page-form h2 {
     font-size: 50px;
