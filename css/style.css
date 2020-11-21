@@ -980,7 +980,8 @@ body {
     flex-basis: 31.5%;
     box-shadow: 0 5px 6px #f4f4f4;
     position: relative;
-    padding: 193px 0 40px 0;
+    padding: 193px 31px 40px 31px;
+    box-sizing: border-box;
 }
 
 .box-team-item .avatar {
@@ -1009,19 +1010,102 @@ body {
     margin-top: 8px;
 }
 
-.box-team-item .btn-more {
+.box-team-item .btn-team {
+    background-color: #f3f3f3;
+    border-radius: 100%;
     display: block;
     width: 50px;
     height: 50px;
     margin: 0 auto;
-    background-image: url(../img/btn-more.png);
-    background-repeat: no-repeat;
     border: none;
+    transition: 0.3s;
+    padding: 0;
+}
 
+.box-team-item .btn-team:hover {
+    background-color: #1a88e1;
+}
+
+.box-team-item .btn-more span {
+    background-image: url(../img/icon-plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-more:hover span {
+    background-image: url(../img/icon-plus-hover.png);
 }
 
 .box-team-item .btn-more:focus {
     outline: none;
+}
+
+.social-team {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box-team-item .btn-fb span {
+    background-image: url(../img/icon-facebook.png);
+    background-position: 15px 14px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-fb:hover span {
+    background-image: url(../img/icon-facebook-hover.png);
+}
+
+.box-team-item .btn-tw span {
+    background-image: url(../img/icon-twitter.png);
+    background-position: 15px 14px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-tw:hover span {
+    background-image: url(../img/icon-twitter-hover.png);
+}
+
+.box-team-item .btn-bh span {
+    background-image: url(../img/icon-behance.png);
+    background-position: 15px 14px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-bh:hover span {
+    background-image: url(../img/icon-behance-hover.png);
+}
+
+.box-team-item .btn-go span {
+    background-image: url(../img/icon-google.png);
+    background-position: 15px 14px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-go:hover span {
+    background-image: url(../img/icon-google-hover.png);
 }
 
 /* Page form */
