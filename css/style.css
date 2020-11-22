@@ -1179,6 +1179,31 @@ body {
 
 .page-stat {
     padding: 116px 0 96px 0;
+    position: relative;
+}
+
+.object-circle {
+    display: block;
+    background-image: url(../img/circle.png);
+    background-size: 100%;
+    position: absolute;
+    left: -253px;
+    bottom: -385px;
+    width: 413px;
+    height: 758px;
+    background-repeat: no-repeat;
+}
+
+.object-rhomb {
+    display: block;
+    background-image: url(../img/rhomb.png);
+    background-size: 100%;
+    position: absolute;
+    right: -286px;
+    top: -218px;
+    width: 601px;
+    height: 672px;
+    background-repeat: no-repeat;
 }
 
 .page-screen {
