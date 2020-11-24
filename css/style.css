@@ -973,7 +973,7 @@ body {
     background-image: url(../img/background7.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 82px 0 114px 0;
+    padding: 82px 0 120px 0;
 }
 
 .page-team .title-40 {
@@ -1130,6 +1130,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 70px 0 121px 0;
 }
 
 .page-form form {
@@ -1154,7 +1155,23 @@ body {
 
 .flex-form {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    max-width: 1090px;
+    align-items: center;
+}
+
+.form-img {
+    margin-right: 72px;
+    margin-top: 65px;
+}
+
+.form-text {
+    flex-basis: 47%;
+
+}
+
+.form-text .title-h2 {
+    padding-bottom: 6px;
 }
 
 .contact-form {
@@ -1167,9 +1184,18 @@ body {
     font-weight: 400;
     border: 2px solid #dce5ed;
     width: 100%;
-    padding: 15px 25px;
+    padding: 26px 80px 26px 36px;
     border-radius: 35px;
     box-sizing: border-box;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+}
+
+.contact-form textarea {
+    min-height: 161px;
+    resize: none;
 }
 
 .contact-form input::placeholder, .contact-form textarea::placeholder { color: #8995b3;}
@@ -1179,7 +1205,7 @@ body {
 .contact-form input:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder { color: #8995b3;}
 
 .contact-form-item {
-    margin-bottom: 15px;
+    margin-bottom: 19px;
     position: relative;
 }
 
@@ -1188,13 +1214,13 @@ body {
     position: absolute;
     display: block;
     background-repeat: no-repeat;
+    right: 38px;
 }
 
 .contact-form-name::after {
     background-image: url(../img/man-icon.png);
     width: 13px;
     height: 15px;
-    right: 30px;
     top: calc(50% - 7px);
 }
 
@@ -1202,7 +1228,6 @@ body {
     background-image: url(../img/envelope.png);
     width: 14px;
     height: 11px;
-    right: 30px;
     top: calc(50% - 7px);
 }
 
@@ -1210,27 +1235,117 @@ body {
     background-image: url(../img/pen.png);
     width: 14px;
     height: 15px;
-    right: 30px;
-    top: 0;
+    top: 29px;
+    margin-bottom: 32px;
+}
+
+.contact-form-text {
+    margin-bottom: 30px;
+}
+
+.contact-form .btn-primary {
+    position: relative;
+    padding: 22px 40px 22px 66px;
+    max-width: 232px;
+    letter-spacing: 2px;
+}
+
+.contact-form .btn-primary::before {
+    background-image: url(../img/paperplane.png);
+    position: absolute;
+    content: '';
+    top: calc(50% - 6px);
+    left: 54px;
+    display: block;
+    width: 13px;
+    height: 13px;
+
 }
 
 /* footer */
 
 .footer{
-    background-color: #192b59;  
+    background-color: #192b59;
+    padding: 0px 0 20px 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer p {
     font-size: 16px;
     color: #b6bae0;
     font-weight: 400;
+    margin-top: 21px;
 }
 
-.footer p span {
+.footer p a {
     font-size: 16px;
     color: #1085e4;
     font-weight: 400;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-fb span {
+    background-image: url(../img/social-fb.png);
+    background-position: 0px 27px;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-tw span {
+    background-image: url(../img/social-twitter.png);
+    background-position: 0px 28px;
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-bh span {
+    background-image: url(../img/social-behance.png);
+    background-position: 0px 29px;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-pt span {
+    background-image: url(../img/social-pinterest.png);
+    background-position: 0px 27px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-fs span {
+    background-image: url(../img/social-foursquare.png);
+    background-position: 0px 27px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 /*Page*/
