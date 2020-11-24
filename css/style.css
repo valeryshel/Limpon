@@ -455,9 +455,11 @@ body {
     outline: none;
 }
 
-.subscribe-form input::placeholder {
-    color: #b1c3ee;
-}
+.subscribe-form input::placeholder               { color: #b1c3ee;}
+.subscribe-form input::-webkit-input-placeholder { color: #b1c3ee;}
+.subscribe-form input::-moz-placeholder          { color: #b1c3ee;}
+.subscribe-form input:-moz-placeholder           { color: #b1c3ee;}
+.subscribe-form input:-ms-input-placeholder      { color: #b1c3ee;}
 
 .subscribe-form button {
     font-size: 14px;
@@ -1123,11 +1125,11 @@ body {
 
 /* Page form */
 
-.page-form h2 {
-    font-size: 50px;
-    letter-spacing: -1px;
-    color: #192b59;
-    font-weight: 600;
+.page-form {
+    background-image: url(../img/background8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .page-form form {
@@ -1148,6 +1150,68 @@ body {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px solid #dce5ed;
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 35px;
+    box-sizing: border-box;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder { color: #8995b3;}
+.contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder { color: #8995b3;}
+.contact-form input::-moz-placeholder, .contact-form textarea::-moz-placeholder { color: #8995b3;}
+.contact-form input:-moz-placeholder, .contact-form textarea:-moz-placeholder { color: #8995b3;}
+.contact-form input:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder { color: #8995b3;}
+
+.contact-form-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contact-form-item::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.contact-form-name::after {
+    background-image: url(../img/man-icon.png);
+    width: 13px;
+    height: 15px;
+    right: 30px;
+    top: calc(50% - 7px);
+}
+
+.contact-form-mail::after {
+    background-image: url(../img/envelope.png);
+    width: 14px;
+    height: 11px;
+    right: 30px;
+    top: calc(50% - 7px);
+}
+
+.contact-form-text::after {
+    background-image: url(../img/pen.png);
+    width: 14px;
+    height: 15px;
+    right: 30px;
+    top: 0;
 }
 
 /* footer */
