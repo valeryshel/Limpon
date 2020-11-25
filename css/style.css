@@ -14,6 +14,8 @@ body {
 .wrap {
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .box-header {
@@ -197,40 +199,58 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1110px;
     margin: 0 auto;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.list-company-item {
+.list-company-item span {
     display: block;
 }
-
 .company-one {
-    background-image: url(../img/sponsor1.png);
     flex-basis: 198px;
-    height: 58px;
 }
 
 .company-two {
-    background-image: url(../img/sponsor2.png);
     flex-basis: 200px;
-    height: 69px;
 }
 
 .company-three {
-    background-image: url(../img/sponsor3.png);
     flex-basis: 201px;
-    height: 47px;
 }
 
 .company-four {
-    background-image: url(../img/sponsor4.png);
     flex-basis: 200px;
+}
+
+.company-one span {
+    background-image: url(../img/sponsor1.png);
+    width: 198px;
+    height: 58px;
+}
+
+.company-two span {
+    background-image: url(../img/sponsor2.png);
+    width: 200px;
     height: 69px;
 }
 
-/*Grid*/
+.company-three span{
+    background-image: url(../img/sponsor3.png);
+    width: 201px;
+    height: 47px;
+}
+
+.company-four span{
+    background-image: url(../img/sponsor4.png);
+    width: 200px;
+    height: 69px;
+}
+
+/*Page Grid*/
 
 .grid {
     display: grid;
@@ -243,7 +263,7 @@ body {
     max-width: 1110px;
     margin: 30px auto;
     grid-gap: 35px;
-    padding: 93px 0 72px 0;
+    padding: 93px 15px 72px 15px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -393,12 +413,16 @@ body {
 .subscribe-box {
     display: flex;
     justify-content: space-between;
-    padding: 33px 0 52px 0;
+    flex-wrap: wrap;
+    padding: 33px 15px 52px 15px;
+}
+
+.subscribe-box div {
+    flex-basis: 49%;
 }
 
 .subscribe-box img {
     width: 354px;
-    height: 417px;
     padding-top: 20px;
 }
 
@@ -769,6 +793,8 @@ body {
 .screen {
     margin-top: 38px;
     margin-bottom: -7px;
+    width: 100%;
+    max-width: 1288px ;
 }
 
 /* PAGE CLIENTS */
@@ -1416,3 +1442,62 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2377cd', GradientType=1 );    
 }
 
+/* MEDIA */
+
+@media (max-width: 1050px) {
+    .page-company {
+        padding: 60px 0 0 0;
+    }
+
+    .list-company-item {
+        flex-basis: 50%;
+        margin-bottom: 50px;
+    }
+    .list-company-item span {
+        margin: 0 auto;
+    }
+    .grid {
+        display: grid;
+        grid-template-areas:
+            "a a"
+            "b c"
+            "d e"
+            "f g"
+            "h h";
+        /* max-width: 1110px;
+        margin: 30px auto;
+        grid-gap: 35px; */
+        padding: 50px 15px 21px 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid .title-40 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .grid .title-40 span {
+        text-align: center;
+    }
+
+    .subscribe-box {
+        flex-direction: column-reverse;
+    }
+
+    .subscribe-box div {
+        flex-basis: 100%;
+    }
+    .page-subscribe p {
+        max-width: 100%;
+    }
+    .subscribe-form {
+        width: 90%;
+        max-width: 90%;
+    }
+    .subscribe-box img {
+        max-width: 14%;
+    }
+    .page-subscribe h2 span {
+        font-size: 21px;
+        padding-top: 16px;
+        padding-bottom: 31px;
+    }
+}
