@@ -1575,10 +1575,33 @@ body {
         margin-bottom: 80px;
     }
     /* PAGE SOFTWARE */
+
+    .page-software-flex {
+        padding: 60px 0 160px 0;
+    }
+
     .page-software-flex>div {
         flex-basis: 60%;
         padding: 0 15px;
     }
+
+    .page-software {
+        background:url(../img/background2.png), rgba(255,255,255,0.6);
+        background-blend-mode: color; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .page-software-icon {
+        display: none;
+    }
+
+    .page-software .title-h2 {
+        font-size: 40px;
+    }
+
+
 }
 
 @media (max-width: 1050px) {
@@ -1636,6 +1659,21 @@ body {
         font-size: 21px;
         padding-top: 16px;
         padding-bottom: 31px;
+    }
+}
+
+@media (max-width: 900px) {
+    .page-software {
+        background: none;
+    }
+
+    .page-software-flex {
+        padding: 0;
+    }
+
+    .page-software-flex>div {
+    flex-basis: 100%;
+    padding: 0px 15px;
     }
 }
 
