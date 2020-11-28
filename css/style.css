@@ -585,15 +585,30 @@ body {
 .page-software {
     background-image: url(../img/background2.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size: contain ;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.page-software-img {
+    display: block;
+    width: 937px;
+    height: 986px;
+    background-image: url(../img/laptop.png);
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 114px;
+    left: -287px;
 }
 
 .page-software-flex {
     display: flex;
     justify-content: flex-end;
     padding: 109px 0 165px 0
-
 }
 
 .page-software-flex>div {
@@ -1535,7 +1550,7 @@ body {
         background-size: cover;
         width: 50%;
         position: absolute;
-        right: -149px;
+        right: -47px;
         top: 169px;
     }
     .page-app-flex img {
@@ -1546,7 +1561,27 @@ body {
     }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
+
+    .page-software {
+        background-image: none;
+    }
+    .page-software-img {
+        display: none;
+    }
+    .page-software-flex>div {
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+
+    .page-software-flex {
+        padding: 60px 0 160px 0;
+    }
+    .page-software-list {
+        max-width: 800px;
+        margin-right: 20px;
+        height: 270px;
+    }
 
 }
 
@@ -1576,27 +1611,6 @@ body {
     }
     /* PAGE SOFTWARE */
 
-    .page-software-flex {
-        padding: 60px 0 160px 0;
-    }
-
-    .page-software-flex>div {
-        flex-basis: 60%;
-        padding: 0 15px;
-    }
-
-    .page-software {
-        background:url(../img/background2.png), rgba(255,255,255,0.6);
-        background-blend-mode: color; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .page-software-icon {
-        display: none;
-    }
-
     .page-software .title-h2 {
         font-size: 40px;
     }
@@ -1624,9 +1638,6 @@ body {
             "d e"
             "f g"
             "h h";
-        /* max-width: 1110px;
-        margin: 30px auto;
-        grid-gap: 35px; */
         padding: 50px 15px 21px 15px;
         grid-template-columns: 1fr 1fr;
     }
