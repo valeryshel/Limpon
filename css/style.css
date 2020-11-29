@@ -691,11 +691,47 @@ body {
 }
 
 /* STAT BLOCK */
+
+.page-stat, .page-screen {
+    background-color: #edf6ff;
+}
+
+.page-stat {
+    padding: 116px 0 96px 0;
+    position: relative;
+}
+
+.object-circle {
+    display: block;
+    background-image: url(../img/circle.png);
+    background-size: 100%;
+    position: absolute;
+    left: -253px;
+    bottom: -385px;
+    width: 413px;
+    height: 758px;
+    background-repeat: no-repeat;
+}
+
+.object-rhomb {
+    display: block;
+    background-image: url(../img/rhomb.png);
+    background-size: 100%;
+    position: absolute;
+    right: -286px;
+    top: -218px;
+    width: 601px;
+    height: 672px;
+    background-repeat: no-repeat;
+}
+
 .list-stat {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    margin-top: 76px;
+    margin-top: 77px;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .list-stat > li > span {
@@ -1496,38 +1532,6 @@ body {
     padding: 106px 0 99px 0;
 }
 
-.page-stat, .page-screen {
-    background-color: #edf6ff;
-}
-
-.page-stat {
-    padding: 116px 0 96px 0;
-    position: relative;
-}
-
-.object-circle {
-    display: block;
-    background-image: url(../img/circle.png);
-    background-size: 100%;
-    position: absolute;
-    left: -253px;
-    bottom: -385px;
-    width: 413px;
-    height: 758px;
-    background-repeat: no-repeat;
-}
-
-.object-rhomb {
-    display: block;
-    background-image: url(../img/rhomb.png);
-    background-size: 100%;
-    position: absolute;
-    right: -286px;
-    top: -218px;
-    width: 601px;
-    height: 672px;
-    background-repeat: no-repeat;
-}
 
 .page-screen {
     padding: 83px 0 0 0;
@@ -1614,7 +1618,16 @@ body {
     .page-software .title-h2 {
         font-size: 40px;
     }
-
+    .content-app {
+        width: 100%;
+        text-align: center;
+    }
+    .page-app-list {
+        justify-content: center;
+    }
+    .page-app-flex img {
+        display: none;
+    }
 
 }
 
@@ -1685,6 +1698,13 @@ body {
     .page-software-flex>div {
     flex-basis: 100%;
     padding: 0px 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    .list-stat > li {
+        margin-bottom: 30px; 
+        flex-basis: 35%;
     }
 }
 
