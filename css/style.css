@@ -1025,6 +1025,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 81px 0 50px;
+    flex-wrap: wrap;
 }
 
 .box-price .btn-primary {
@@ -1620,7 +1621,7 @@ body {
     }
     .content-app {
         width: 100%;
-        text-align: center;
+        text-align: center; 
     }
     .page-app-list {
         justify-content: center;
@@ -1684,6 +1685,13 @@ body {
         padding-top: 16px;
         padding-bottom: 31px;
     }
+    .page-software-flex {
+        padding: 15px 0 30px 0;
+    } 
+    .box-price-item {
+        flex-basis: 31%;
+        padding: 76px 0 75px 0;
+    }
 }
 
 @media (max-width: 900px) {
@@ -1695,9 +1703,19 @@ body {
         padding: 0;
     }
 
-    .page-software-flex>div {
-    flex-basis: 100%;
-    padding: 0px 15px;
+    .page-software-flex>div { 
+        flex-basis: 100%;
+        padding: 0px 15px;
+    }
+
+    .box-price {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .box-price-item {
+        flex-basis: 100%;
+        margin-bottom: 15px;
     }
 }
 
