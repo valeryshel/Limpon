@@ -785,6 +785,12 @@ body {
     width: 55%;
 }
 
+.content-app-img {
+    max-height: 407px;
+    padding-top: 25px;
+    margin-right: -22px;
+}
+
 .content-app .title-h2 {
     margin-top: 59px;
     margin-bottom: 36px;
@@ -970,6 +976,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 63px;
+    flex-wrap: wrap;
 }
 
 .box-clients-item {
@@ -1148,6 +1155,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 138px;
+    flex-wrap: wrap;
 }
 
 .box-team-item {
@@ -1318,6 +1326,7 @@ body {
     justify-content: flex-start;
     max-width: 1090px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .form-img {
@@ -1440,6 +1449,7 @@ body {
 .footer-flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer p {
@@ -1618,7 +1628,19 @@ body {
 
     .page-software .title-h2 {
         font-size: 40px;
+        text-align: center;
+        max-width: 1100px;
+        margin: 50px auto;
     }
+
+    .page-software-icon  {
+        display: none;
+    }
+
+    .page-software-flex {
+        padding: 15px 0 30px 0;
+    } 
+
     .content-app {
         width: 100%;
         text-align: center; 
@@ -1629,10 +1651,40 @@ body {
     .page-app-flex img {
         display: none;
     }
+    .flex-analitics {
+        flex-direction: column;
+    }
 
-}
+    .flex-analitics>img {
+        width: 477px;
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    
+    .flex-analitics>div {
+        flex-basis: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-@media (max-width: 1050px) {
+    .flex-analitics .page-software-icon {
+        display: none;
+    }
+
+    .flex-analitics .title-h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .page-analitics-text{
+        color: #192b59;
+    }
+    .btn-analitics {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .page-company {
         padding: 60px 0 0 0;
     }
@@ -1659,6 +1711,7 @@ body {
         max-width: 100%;
         text-align: center;
     }
+
     .grid .title-40 span {
         text-align: center;
     }
@@ -1669,6 +1722,8 @@ body {
 
     .subscribe-box div {
         flex-basis: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
     .page-subscribe p {
         max-width: 100%;
@@ -1679,18 +1734,103 @@ body {
     }
     .subscribe-box img {
         max-width: 14%;
+        margin: 0 auto;
     }
     .page-subscribe h2 span {
         font-size: 21px;
         padding-top: 16px;
         padding-bottom: 31px;
+        text-align: center;
     }
-    .page-software-flex {
-        padding: 15px 0 30px 0;
-    } 
+
     .box-price-item {
         flex-basis: 31%;
         padding: 76px 0 75px 0;
+    }
+
+    .intro {
+        display: none;
+    }
+    .page-app2-flex {
+        margin-top: 0;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+    }
+    .page-app2-flex .content-app {
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .content-app-img {
+        width: 465px;
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    .page-app2-flex .content-app .title-h2 {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .page-clients {
+        margin-top: 0px;
+    }
+
+    .page-team {
+        background-position: top;
+        background-size: contain;
+        padding: 2px 0 0 0;
+    }
+
+    .box-team {
+        margin: 0;
+        justify-content: space-evenly;
+    }
+
+    .box-team-item {
+        flex-basis: 50%;
+        box-shadow: none;
+        background: none;
+        padding: 0 0 30px 0;
+    }
+
+    .box-team-item .avatar {
+        position: relative;
+        top: 0;
+    }
+
+    .social-team {
+        margin: 0 auto;
+        max-width: 286px;
+    }
+
+    .page-form {
+        padding: 70px 0 45px 0;
+    }
+
+    .form-text {
+        flex-basis: 100%;
+    }
+    .form-img {
+        margin: 0 auto;
+        width: 418px;
+        max-width: 65%;
+    }
+    .form-text .title-h2 {
+        text-align: center;
+        margin: 35px auto;
+        font-size: 40px;
+    }
+
+    .contact-form {
+        padding: 0 40px;
+    }
+    .contact-form .btn-primary {
+        margin: 0 auto;
+        padding: 22px 46px 22px 75px;
     }
 }
 
@@ -1715,7 +1855,30 @@ body {
 
     .box-price-item {
         flex-basis: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+    }
+
+    .page-clients {
+        background-color:#1085e4;
+    }
+
+    .page-clients .title-40 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .page-clients .title-40 span {
+        text-align: center;
+    }
+
+    .box-clients-item {
+        flex-basis: 85%;
+        margin: 0 auto 25px;
+        box-shadow: none;
+    }
+
+    .page-screen {
+        padding: 35px 0 0 0;
     }
 }
 
@@ -1732,10 +1895,15 @@ body {
         margin: 0 auto 50px auto;
     }
 
+    .title-h2 {
+        font-size: 45px;
+    }
+
     .title-40 {
         font-size: 35px;
         font-weight: 600;
     }
+
     .title-40 span {
         font-size: 12px;
     }
@@ -1801,7 +1969,6 @@ body {
         display: none;
     }
 
-
     .page-subscribe h2 {
         font-size: 35px;
         letter-spacing: -1.6px;
@@ -1827,6 +1994,7 @@ body {
     .subscribe-form {
         width: 100%;
         padding: 0px;
+        margin: 0 auto;
     }
 
     .subscribe-form input {
@@ -1837,6 +2005,58 @@ body {
         padding: 13px 27px;
         margin: 10px 10px 10px auto;
     }
+
+    .content-app .title-h2 {
+        margin-top: 0px;
+        font-size: 45px;
+    }
+
+    .list-company-item {
+        margin: 0 auto 50px
+    }
+
+    .footer-flex {
+        justify-content: center;
+    }
+    .footer-flex p {
+        flex-basis: 100%;
+        text-align: center;
+    }
 }
 
+@media (max-width: 400px) {
+    .grid-item h3 {
+        font-size: 14px;
+    }
 
+    .page-subscribe p {
+        margin: 15px auto 20px auto;
+        max-width: 90%;
+        text-align: center;
+    }
+    .page-stat {
+        padding: 70px 0;
+    }
+
+    .content-app .title-h2 {
+        font-size: 35px;
+    }
+    .page-app-flex {
+        margin-bottom: 50px;
+    }
+    .page-app-list>li>a.page-app-apple {
+        margin-left: 10px;
+    }
+    .page-analitics {
+        padding: 50px 0 60px 0;
+    }
+    .page-app-2 {
+        padding: 20px 0 30px 0;
+    }
+    .page-clients {
+        margin-bottom: 20px;
+    }
+    .page-team {
+        background-size: cover;
+    }
+}
