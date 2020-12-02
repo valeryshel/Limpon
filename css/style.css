@@ -1893,6 +1893,9 @@ body {
         margin-bottom: 30px; 
         flex-basis: 35%;
     }
+    .content-app .title-h2 {
+        font-size: 45px;
+    }
 }
 
 @media (max-width: 600px) {
