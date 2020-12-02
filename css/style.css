@@ -3,13 +3,15 @@ html {
     max-width: 100%;
     overflow-x: hidden;
 }
-
     
 body {
     font-family: 'Open Sans', sans-serif;
     color: #7581a1;
     font-size: 16px;
     line-height: 26px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .wrap {
