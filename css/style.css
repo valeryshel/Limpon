@@ -1734,6 +1734,7 @@ body {
     .subscribe-form {
         width: 90%;
         max-width: 90%;
+        margin: 0 auto;
     }
     .subscribe-box img {
         max-width: 14%;
