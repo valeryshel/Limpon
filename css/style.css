@@ -1881,6 +1881,9 @@ body {
     .page-screen {
         padding: 35px 0 0 0;
     }
+    .content-app .title-h2 {
+        font-size: 45px;
+    }
 }
 
 @media (max-width: 700px) {
